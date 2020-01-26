@@ -1,0 +1,68 @@
+body{
+	font-family: 'Miriam Libre', sans-serif;
+}
+
+svg{
+	width: 70%!important;
+	margin: 0 auto!important;
+	display: block!important;
+}
+
+.studentgallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.portret a{
+	display: flex;
+	align-items: center;
+	width: 400px;
+	text-decoration: none;
+}
+.portret a p{
+	color: black;
+}
+
+.portret div{
+	width: 150px;
+}
+.portret img{
+	border-radius: 150px;
+	padding: 30px;
+}
+.portret h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: DeepSkyBlue;
+}
+ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+ul:first-of-type::before{
+	content: url(logoDashBoard.jpg);
+}
+
+ul li a{
+	text-decoration: none
+}
+ol{
+	display: flex;
+	justify-content: space-around;
+}
+form{
+	display: flex;
+	justify-content: center;
+}
+form input{
+	margin-left: 20px;
+}
+.headerStudent{
+	text-align: center; 
+}
+h1 span{
+	color: DeepSkyBlue;
+	font-weight: bold;
+}
